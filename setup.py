@@ -7,7 +7,7 @@ requirements = [x.strip() for x in content if 'git+' not in x]
 
 setup(
     name='mlproject',
-    version="1.0",
+    version="1.1",
     description="Project Description",
     packages=find_packages(),
     install_requires=requirements,
